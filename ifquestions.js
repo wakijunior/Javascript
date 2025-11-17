@@ -151,11 +151,13 @@ if (num1 <= num2 && num1 <= num3) {
     } else {
         console.log(`${num3}, ${num2}, ${num1}`);   
     }
+}
 // 9.Write a program to check whether the last digit entered by a user is divisible by 3 or not.
 
 let userInput = Number(prompt("Enter a number:"));
 let lastDigit = userInput.slice(-1);
 if (lastDigit % 3 == 0) {
     console.log(`The last digit ${lastDigit} is divisible by 3`);
-} else 
-    console.log("The last digit is not divisible by 3")
+} else {
+    console.log("Last digit not divisible by 3.")
+}
